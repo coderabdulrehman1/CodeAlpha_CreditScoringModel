@@ -1,18 +1,4 @@
-"""
-Credit Risk Predictor - Streamlit app
-Run from the project root with:  streamlit run app.py
 
-Expected project layout
-    app.py
-    src/features.py               clean_and_engineer() from Day 4
-    models/credit_model.joblib    final fitted pipeline (Day 8)
-    models/config.json            {"threshold": 0.xx}   (Day 8)
-    models/results.csv            optional - model comparison table
-    models/test_scores.csv        optional - columns: y_true, proba (test set)
-    assets/roc_curve.png          optional - shown in "Model performance"
-    assets/feature_importance.png optional - shown in "Model performance"
-    assets/eda_*.png              optional - shown in "Data insights"
-"""
 import glob
 import json
 import os

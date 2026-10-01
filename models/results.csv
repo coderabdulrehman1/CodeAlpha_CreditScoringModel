@@ -1,0 +1,7 @@
+model,roc_auc,precision,recall,f1
+Dummy,0.5,0.0,0.0,0.0
+Logistic Regression,0.857,0.22,0.738,0.339
+Decision Tree (depth=5),0.849,0.197,0.774,0.313
+Random Forest,0.862,0.235,0.729,0.356
+RF: class_weight,0.862,0.234,0.726,0.354
+XGBoost,0.864,0.216,0.771,0.337
